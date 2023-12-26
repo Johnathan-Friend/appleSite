@@ -1,0 +1,92 @@
+<!--Johnathan Friend-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.">
+    <meta name="keywords" content="iPhone, iPad, Mac, MacBook, iOS, macOS, Apple Watch, AirPods, App Store, iCloud, Apple Music, Apple TV, HomeKit, Safari browser, Apple Pay, Apple Store, Developer Program, AppleCare, Sustainability, Accessibility, Privacy, Innovation, Design, User Experience, Technology, iOS App Development, macOS App Development, Swift Programming Language, ARKit, SwiftUI, HealthKit, Machine Learning, Privacy Features, Environmental Initiatives, Apple News">
+    <title>Products</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/products.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header_div">
+            <nav id="main_nav">
+                <a href=""><img src="../images/Apple_logo_white.svg.png" alt="Apple Logo"></a>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./products.html" class="current">Products</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero_banner">
+            <img src="../images/hero-banner-homepage.image.large_2x.jpg" alt="Users enjoying Apple products">
+        </section>
+        <section id="product">
+            <h1>Check out our <span class="underline">NEW</span> Products!</h1>
+            <p>Double click a product to add to cart</p>
+            <section id="items">
+                <div id="macbook_air">
+                    <img src="../images/product_images/macbook-air-segment-202310.png" alt="New macbook air">
+                    <h2>Macbook Air</h2>
+                    <p>$899</p>
+                </div>
+                <div id="macbook_product_pro">
+                    <img src="../images/product_images/macbook-pro-segment-202310.png" alt="New macbook pro">
+                    <h2>Macbook Pro</h2>
+                    <p>$1499</p>
+                </div>
+                <div id="iMac">
+                    <img src="../images/product_images/imac-segment-202310.png" alt="New iMac">
+                    <h2>iMac</h2>
+                    <p id="1249">$1249</p>
+                </div>
+                <div id="iPad">
+                    <img src="../images/product_images/ipad-segment-ipad-pro-202210.png" alt="New iPad">
+                    <h2>iPad</h2>
+                    <p>$749</p>
+                </div>
+                <div id="iPhone_pro">
+                    <img src="../images/product_images/compare_iphone_15_pro__c344odaqs5qq_large.png" alt="New iPhone pro">
+                    <h2>iPhone Pro</h2>
+                    <p>$999</p>
+                </div>
+                <div id="iPhone">
+                    <img src="../images/product_images/compare_iphone_15__cp3codzoxms2_large.png" alt="New iPhone">
+                    <h2>iPhone</h2>
+                    <p>$799</p>
+                </div>
+            </section>
+        </section>
+        <section id="checkout">
+            <form id="order_form" name="order_form" action="./checkout.html" method="get">
+                <h2>Your Order:</h2>
+                <section>
+                    <select id="order" name="order" size="6"></select>
+                    <p id="total"></p>            		
+                </section>
+                <section id="buttons">
+                    <input type="button" name="place_order" id="place_order" value="Place Order">
+                    <input type="button" name="clear_order" id="clear_order" value="Clear Order">				            		
+                </section>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; 2023 Apple Inc. All rights reservered
+        <p>Contact: call 1-800-MY-APPLE.</p>
+    </footer>
+    <script src="../js/products.js"></script>
+</body>
+</html>

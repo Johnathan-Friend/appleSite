@@ -1,0 +1,75 @@
+/*Johnathan Friend*/
+
+#product {
+    text-align: center;
+}
+
+#product h1 {
+    font-size: 3rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#items {
+    display: grid;
+    grid-template-areas: "item1 item2 item3" "item4 item5 item6";
+    gap: 10px;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#items > div{
+    border-radius: 20px;
+    background-color: #f3f4f7;
+    padding-top: 50px
+}
+
+#checkout {
+    width: 465px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+#checkout p {
+    padding: 20px;
+}
+
+#total {
+	margin-top: .5em;
+	margin-bottom: .7em;
+}
+
+input {
+    width: 150px;
+    margin-right: 5px;
+}
+
+#buttons {
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 1300px) {
+    #items {
+        grid-template-areas: 
+        "item1 item2" 
+        "item3 item4" 
+        "item5 item6";
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #items {
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6";
+    }
+}

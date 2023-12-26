@@ -1,0 +1,92 @@
+/*Johnathan Friend*/
+
+#hero_banner img{
+    width: 100%; 
+    height: auto;
+}
+
+#confirmation {
+    height: 200px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+#form_background {
+    background-color: white;
+    padding: 5% 10% 5% 10%;
+}
+
+#form_background h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.form_container {
+    background-color: #fbfbfd;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    padding: 5%
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+    width: 90%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#additional_help {
+    background-color: #f5f5f7;
+    padding: 5% 10% 5% 10%;
+}
+
+#apple_support_videos, #join_sessions {
+    background-color: white;
+    padding-top: 5%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+#apple_support_videos #content, #join_sessions #content {
+    padding-bottom: 7%;
+}
+
+#apple_support_videos #content h1, #join_sessions #content h1 {
+    font-size: 2rem;
+}
+
+#apple_support_videos {
+    margin-bottom: 5%;
+}
+
+#apple_support_videos img, #join_sessions img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    border-radius: 0px 0px 25px 25px;
+}

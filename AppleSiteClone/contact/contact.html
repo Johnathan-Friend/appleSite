@@ -1,0 +1,80 @@
+<!--Johnathan Friend-->
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support.">
+    <meta name="keywords" content="iPhone, iPad, Mac, MacBook, iOS, macOS, Apple Watch, AirPods, App Store, iCloud, Apple Music, Apple TV, HomeKit, Safari browser, Apple Pay, Apple Store, Developer Program, AppleCare, Sustainability, Accessibility, Privacy, Innovation, Design, User Experience, Technology, iOS App Development, macOS App Development, Swift Programming Language, ARKit, SwiftUI, HealthKit, Machine Learning, Privacy Features, Environmental Initiatives, Apple News">
+    <title>Contact Apple Support</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header_div">
+            <nav id="main_nav">
+                <a href="../index.html"><img src="../images/Apple_logo_white.svg.png" alt="Apple Logo"></a>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../product/products.html">Products</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../contact/contact.html" class="current">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="hero_banner">
+            <img src="../images/hero-banner-homepage.image.large_2x.jpg" alt="Users enjoying Apple products">
+        </section>
+        <div id="form_background">
+            <h1>Apple Support Ticket</h1>
+            <section class="form_container">
+                <form name="customer_support" action="./confirmation.html" method="get">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="service">Select Service:</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="repair">Repair</option>
+                        <option value="maintenance">Maintenance</option>
+                        <option value="consultation">Consultation</option>
+                    </select>
+                    <label for="problem">Describe the Problem:</label>
+                    <textarea id="problem" name="problem" rows="4" required></textarea>
+                    <button type="submit">Submit Request</button>
+                </form>
+            </section>
+        </div>
+        <section id="additional_help">
+            <div id="apple_support_videos">
+                <div id="content">
+                    <h1>Watch Apple Support Videos</h1>
+                    <p>Check out our official Youtube channel to help get the most from your Apple devices and services.</p>
+                    <a href="" class="subnav">Visit Apple Support on Youtube</a>
+                </div>
+                <img src="../images/tile-feature-AppleSupport-YT-promo_wht.image.large_2x.png" alt="Apple Youtube Channel">
+            </div>
+            <div id="join_sessions">
+                <div id="content">
+                    <h1>Join free sessions at your Apple Store</h1>
+                    <p>Learn about the latest features and how to go further with your Apple devices.</p>
+                    <a href="" class="subnav">Sign up</a>
+                </div>
+                <img src="../images/tile-feature-taa-fundamentals.image.large_2x.png" alt="Apple learning sessions">
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright &copy; 2023 Apple Inc. All rights reservered
+        <p>Contact: call 1-800-MY-APPLE.</p>
+    </footer>
+</body>
+</html>

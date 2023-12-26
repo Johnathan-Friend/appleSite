@@ -1,0 +1,208 @@
+/*Johnathan Friend*/
+
+body {
+    margin: 0px;
+    font-family: roboto;
+}
+
+#header_div {
+    background-color: #161617;
+    opacity: 90%;
+    position: fixed;
+    width: 100%;
+}
+
+#main_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#main_nav a {
+    display: block;
+    width: 2%;
+}
+
+#main_nav img{
+    width: 2%;
+    float: left;
+    min-width: 20px;
+}
+
+#main_nav .current {
+    color: #2997ff;
+}
+
+#main_nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+}
+
+#main_nav li {
+    float: right;
+    position: relative;
+    list-style-type: none;
+}
+
+#main_nav a:hover, #main_nav a:focus {
+    text-decoration: underline;
+}
+
+#main_nav li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+#homepage_1 h1, #homepage_1 h2, #homepage_3 h2, #airpods h1, #airpods h2 {
+    color: white;
+    margin-top: 0px;
+}
+
+#homepage_1 h1, #homepage_2 h1 {
+    padding-top: 5%;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+#homepage_1 h1 {
+    padding-top: 9%;
+}
+
+.h2_main {
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.ul_subnav {
+    padding-left: 0;
+}
+
+.ul_subnav li {
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.subnav {
+    color: #2997ff;
+    text-decoration: none;
+}
+
+.subnav:hover, .subnav:focus {
+    text-decoration: underline;
+}
+
+#homepage_1 {
+    background-color: black;
+    background-image: url(../images/hero_iphone15pro__i70z9oz3hj2i_mediumtall.jpg);
+    background-position: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 620px;
+    margin-bottom: 10px;
+}
+
+#homepage_2 {
+    background-image: url(../images/hero_iphone15_announce__uuemlcwczn6u_mediumtall.jpg);
+    background-color: #fbfbfd;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+#homepage_2 h1 {
+    margin: 0px;
+}
+
+#homepage_2 h2 {
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#homepage_3 {
+    background-color: black;
+    background-image: url(../images/hero_apple_watch_series_9_order__d0fi9mb84dci_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 620px;
+    margin-bottom: 10px;
+}
+
+#homepage_3 img {
+    padding-top: 2.5%
+}
+
+#homepage_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "section1 section2" "section3 section4";
+    gap: 10px;
+    margin: 0px 10px 10px 10px;
+}
+
+#macbook_pro, #airpods, #credit_card, #trade_in {
+    text-align: center;
+}
+
+#macbook_pro {
+    background-color: #fbfbfd;
+    background-image: url(../images/hero_mbp__fx6ku12vgw2m_largetall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#airpods {
+    background-color: black;
+    background-image: url(../images/apple_airpods.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#credit_card {
+    background-color: #fbfbfd;
+    background-image: url(../images/apple_card.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#trade_in {
+    background-color: #fbfbfd;
+    background-image: url(../images/apple_trade_in_program.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#homepage_grid h1 {
+    padding-top: 10%;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#homepage_grid img {
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+
+footer {
+    background-color: #f5f5f7;
+    padding: 2%;
+    text-align: center;
+}
